@@ -9,8 +9,7 @@ site and PDF are built for you.
 
 - **The organisation** is `FG-TIDA` on GitHub.
 - **Each specification is its own repository** created from the template
-  `FG-TIDA/spec-template`. This is the same model IETF working groups use: one
-  repo per document, each with its own web page, PDF, issues, and history.
+  `FG-TIDA/spec-template`: one repo per document, each with its own web page, PDF, issues, and history.
 - **Working groups are grouped by a naming convention**, not by nesting (GitHub
   cannot nest repositories). Prefix each spec repo with your WG, e.g.
   `wg1-trust-framework`, `wg1-agent-identity`, `wg2-…`. Optionally add a GitHub
