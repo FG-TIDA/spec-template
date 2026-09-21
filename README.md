@@ -1,9 +1,16 @@
-# TIDA Specification
+# TIDA Specification Template
 
-> **This repository was created from the TIDA specification template.**
-> If you are starting a new specification, follow **[WG-ONBOARDING.md](WG-ONBOARDING.md)**,
-> then replace the text of this README with a short description of *your*
-> specification (what it is, its status, and a link to the published site).
+**See the template live:**
+📄 **[Web page](https://fg-tida.github.io/spec-template/)** ·
+📥 **[PDF](https://fg-tida.github.io/spec-template/specification.pdf)**
+
+The pages you see there are produced by this repository — they double as the
+template's documentation, explaining and demonstrating how to write a spec.
+
+> **Starting a new specification?** Follow
+> **[WG-ONBOARDING.md](WG-ONBOARDING.md)**. Once your repo is created, replace
+> the text of this README with a short description of *your* specification
+> (what it is, its status, and a link to its published site).
 
 ---
 
