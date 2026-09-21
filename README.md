@@ -1,65 +1,33 @@
-# Specification Template
+# TIDA Specification
 
-A turnkey template for writing technical **specifications** with
-[Sphinx](https://www.sphinx-doc.org/). It bundles everything a spec author
-needs — structured chapters, tables, diagrams, an auto-generated API reference,
-and one-command publishing to the web and PDF — so you can start writing
-content instead of wiring up tooling.
+> **This repository was created from the TIDA specification template.**
+> If you are starting a new specification, follow **[WG-ONBOARDING.md](WG-ONBOARDING.md)**,
+> then replace the text of this README with a short description of *your*
+> specification (what it is, its status, and a link to the published site).
 
-The published document is available at
-<https://debora-com.github.io/CUTEspecs/>.
+---
 
-## Features
+A specification for the FG-TIDA working groups, authored with the shared TIDA
+template: one source that builds a modern web page and a print-ready PDF, with
+support for diagrams and auto-generated API references.
 
-- **Web + PDF from one source** — the same content builds a modern HTML site and
-  a print-ready PDF.
-- **API reference from OpenAPI** — drop an OpenAPI (Swagger) file in `yaml/` and
-  the endpoints, schemas, and examples are generated automatically.
-- **Diagrams as text** — sequence, class, and other diagrams via
-  [PlantUML](https://plantuml.com), kept in version control alongside the prose.
-- **Self-documenting** — the template's own chapters explain and demonstrate the
-  authoring system as you read them.
-- **Automatic publishing** — pushing to `main` builds and deploys the site (and
-  PDF) via GitHub Actions and GitHub Pages.
+## Quick start
 
-## Getting started
+1. Click **Use this template → Create a new repository** (owner `FG-TIDA`, name
+   `wg<N>-<short-name>`).
+2. In the new repo: **Settings → Pages → Source: GitHub Actions**.
+3. Edit the content under `src/doc/` — replace the `<placeholders>` and the
+   example text. Full instructions are in **[WG-ONBOARDING.md](WG-ONBOARDING.md)**.
+4. Push to `main`. The site and PDF publish automatically to
+   `https://fg-tida.github.io/<repo-name>/`.
 
-1. Create your own copy (use the green **Use this template** button on GitHub, or
-   clone this repository).
-2. Replace the `<placeholders>` and the *lorem ipsum* content with your own. The
-   landing page (`src/doc/index.rst`) is the document's front matter; the content
-   lives under `src/doc/chapters/`.
-3. Read the built chapters — they explain how to write text, tables, diagrams,
-   cross-references, and API references.
-4. Build and preview locally (see the [HOWTO](HOWTO.md)), or just push to `main`
-   and let GitHub Pages publish it.
+## In this repository
 
-## Building the documentation
+- `src/doc/index.rst` — the document front matter (title, abstract, authors…).
+- `src/doc/chapters/` — the chapters; they explain and demonstrate how to write
+  content, then you replace them with your own.
+- `HOWTO.md` — how to build and preview locally, and how to customise.
+- `WG-ONBOARDING.md` — the full step-by-step guide for authors.
 
-Full instructions are in [HOWTO.md](HOWTO.md). In short:
-
-```shell
-pip install -r requirements.txt
-sphinx-build -b html src/doc target/html
-```
-
-Diagrams require [PlantUML](https://plantuml.com/download); API reference
-generation and PDF output need their respective tools, all covered in the HOWTO.
-
-## Built on
-
-This template stands on excellent open-source projects:
-
-- [Sphinx](https://www.sphinx-doc.org/) — the documentation engine
-- [Furo](https://github.com/pradyunsg/furo) — the HTML theme (MIT), with custom
-  styling on top
-- [sphinxcontrib-openapi](https://sphinxcontrib-openapi.readthedocs.io/),
-  [sphinxcontrib-plantuml](https://github.com/sphinx-contrib/plantuml) — the API
-  and diagram extensions
-
-## License
-
-Released under the [MIT License](LICENSE) — free to use, modify, and
-distribute, including for your own specifications. The bundled dependencies keep
-their own licenses (for example [Furo](https://github.com/pradyunsg/furo) is
-MIT); preserve their notices when you redistribute.
+Built on the open-source [CUTEspecs](https://github.com/debora-com/CUTEspecs)
+template.
