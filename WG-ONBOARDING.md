@@ -7,23 +7,27 @@ site and PDF are built for you.
 
 ## How TIDA organises specifications
 
-- **The organisation** is `FG-TIDA` on GitHub.
-- **Each specification is its own repository** created from the template
-  `FG-TIDA/spec-template`: one repo per document, each with its own web page, PDF, issues, and history.
-- **Working groups are grouped by a naming convention**, not by nesting (GitHub
-  cannot nest repositories). Prefix each spec repo with your WG, e.g.
-  `wg1-trust-framework`, `wg1-agent-identity`, `wg2-…`. Optionally add a GitHub
-  *topic* (e.g. `wg1`) to each repo so they can be filtered together.
+- **One GitHub organization per Working Group**, for example `fg-tida-wg1`. The
+  central `FG-TIDA` organization holds only the shared templates
+  (`FG-TIDA/wg-charter-template` and `FG-TIDA/spec-template`).
+- **Each specification is its own repository**, created from
+  `FG-TIDA/spec-template` inside the Working Group's organization: one repo per
+  document, each with its own web page, PDF, issues, and history.
+- **Repositories follow the naming convention** `wg<n>-<acronym>-<spec-name>`,
+  where `<n>` is the Working Group number and `<acronym>` is its acronym — for
+  example `wg1-ra-aai`, `wg1-ra-trust-framework`. The Working Group's charter
+  repository uses `wg<n>-<acronym>-charter`.
 
-A WG that wants a single landing page listing all its specs can create a small
-extra repo for that purpose that links out to each spec's site.
+A WG that wants a single landing page listing all its specs can use the
+`profile/README.md` of its organization's `.github` repository.
 
 ## Create a new specification (once per spec)
 
 1. Go to **https://github.com/FG-TIDA/spec-template**.
 2. Click **Use this template → Create a new repository**.
-3. Set **Owner** to `FG-TIDA` and **Repository name** to `wg<N>-<short-name>`
-   (for example `wg1-trust-framework`). Make it **Public**.
+3. Set **Owner** to your Working Group's organization (for example `fg-tida-wg1`,
+   **not** the central `FG-TIDA` organization) and **Repository name** to
+   `wg<n>-<acronym>-<spec-name>` (for example `wg1-ra-aai`). Make it **Public**.
 4. Click **Create repository**.
 5. In the new repository, go to **Settings → Pages** and set
    **Source** to **GitHub Actions**.
@@ -31,7 +35,7 @@ extra repo for that purpose that links out to each spec's site.
 That is all the setup. Every push to the `main` branch now rebuilds the site and
 PDF automatically and publishes them to:
 
-> `https://fg-tida.github.io/wg<N>-<short-name>/`
+> `https://fg-tida-wg<n>.github.io/wg<n>-<acronym>-<spec-name>/`
 
 The downloadable PDF is at `…/specification.pdf`.
 

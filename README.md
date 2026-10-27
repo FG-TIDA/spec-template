@@ -20,13 +20,13 @@ support for diagrams and auto-generated API references.
 
 ## Quick start
 
-1. Click **Use this template → Create a new repository** (owner `FG-TIDA`, name
-   `wg<N>-<short-name>`).
+1. In your Working Group's GitHub organization (`fg-tida-wg<n>`), click **Use this
+   template → Create a new repository**, named `wg<n>-<acronym>-<spec-name>`.
 2. In the new repo: **Settings → Pages → Source: GitHub Actions**.
 3. Edit the content under `src/doc/` — replace the `<placeholders>` and the
    example text. Full instructions are in **[WG-ONBOARDING.md](WG-ONBOARDING.md)**.
 4. Push to `main`. The site and PDF publish automatically to
-   `https://fg-tida.github.io/<repo-name>/`.
+   `https://fg-tida-wg<n>.github.io/<repo-name>/`.
 
 ## In this repository
 
