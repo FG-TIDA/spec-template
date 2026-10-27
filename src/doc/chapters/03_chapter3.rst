@@ -72,5 +72,5 @@ Which to use
 
     A change to an *included* file does not always trigger a rebuild of the page
     that includes it. If an edit does not appear, rebuild fully — the project
-    ``HOWTO`` explains how, and the live-preview helper is already configured to
+    ``CONTRIBUTING`` guide explains how, and the live-preview helper is already configured to
     do this for you.

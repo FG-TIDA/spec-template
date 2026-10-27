@@ -75,12 +75,12 @@ follow the pattern in `chapters/04_chapter4/`.
 
 - **Easiest:** just push to `main` and read the published site — nothing to
   install.
-- **Locally (optional):** see `HOWTO.md` in the repository for building on your
+- **Locally (optional):** see `CONTRIBUTING.md` in the repository for building on your
   own machine with a live preview.
 
 ## Getting help
 
 - Read the template's own chapters — they are written as a tutorial.
-- See `HOWTO.md` for build details and the customisation rules.
+- See `CONTRIBUTING.md` for build details and the customisation rules.
 - Open an issue in your spec's repository for content questions, or in
   `FG-TIDA/spec-template` for template/tooling issues.

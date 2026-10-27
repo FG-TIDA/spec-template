@@ -1,3 +1,61 @@
+# Contributing
+
+This repository holds an FG-TIDA Working Group specification. Anything you do
+here — an edit, a commit, a pull request, an issue, or a comment — is a
+contribution offered as input to the Working Group's work and may be
+incorporated into its deliverables.
+
+You do not need to be a Git or reStructuredText expert to contribute. If in
+doubt, open an issue and ask — the document editors are usually happy to help a
+contribution into shape.
+
+## Ways to contribute
+
+- **Pull request** — propose a concrete change to the text.
+- **Issue** — raise a problem, question, or suggestion for discussion.
+- **Mailing list** — discuss direction and larger questions with the Working Group.
+
+### Propose a change with a pull request
+
+**In your browser (easiest).** Open the file you want to change under `src/doc/`
+on GitHub, click the pencil (✏️) icon, make your edit, write a short title,
+choose **Propose changes**, then **Create pull request**.
+
+**With Git locally.**
+
+```shell
+git checkout -b my-change
+# edit files under src/doc/
+git commit -am "Describe your change"
+git push origin my-change
+```
+
+Then open a pull request against `main`.
+
+### Open an issue
+
+Use issues to report errors, raise open questions, or suggest changes you are not
+ready to draft yourself. A clear title and a short description of the problem and
+where it occurs is enough to start a discussion.
+
+## Review and adoption
+
+- Changes are made through pull requests against `main`; **do not push to `main`
+  directly**, so every change keeps a review and decision history.
+- Pull requests are reviewed by the Working Group before they are merged.
+- A contribution or existing draft identified as an *input* is not automatically
+  adopted Working Group text until the appropriate FG-TIDA process has taken place.
+
+## Conduct
+
+Participation in this repository follows the ITU-T and FG-TIDA participation,
+conduct, and IPR rules. Please be respectful and constructive in issues, pull
+requests, and reviews.
+
+---
+
+The rest of this guide explains how to build, preview, and publish the document.
+
 # How to use this template
 
 This guide explains how to start a document from this template, build it

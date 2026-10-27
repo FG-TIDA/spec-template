@@ -33,7 +33,7 @@ support for diagrams and auto-generated API references.
 - `src/doc/index.rst` — the document front matter (title, abstract, authors…).
 - `src/doc/chapters/` — the chapters; they explain and demonstrate how to write
   content, then you replace them with your own.
-- `HOWTO.md` — how to build and preview locally, and how to customise.
+- `CONTRIBUTING.md` — how to contribute, and how to build, preview, and customise the document.
 - `WG-ONBOARDING.md` — the full step-by-step guide for authors.
 
 Built on the open-source [CUTEspecs](https://github.com/debora-com/CUTEspecs)

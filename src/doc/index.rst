@@ -26,7 +26,7 @@
           content with your specification.
 
         This notice appears on the web version only; it is excluded from the
-        published PDF. See the project ``HOWTO`` for how to build and publish.
+        published PDF. See the project ``CONTRIBUTING`` guide for how to build and publish.
 
 Title of this document
 ========================

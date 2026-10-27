@@ -128,4 +128,4 @@ more — see https://plantuml.com for the full syntax.
 
     Diagrams require PlantUML to be available at build time. The online build
     (GitHub Pages) installs it automatically; for local builds see the project
-    HOWTO.
+    CONTRIBUTING guide.
